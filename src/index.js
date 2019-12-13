@@ -1,6 +1,8 @@
 console.log("webpack ==========");
 
-let str = require('./a')
+var test = require('./a')
 
-console.log(str);
+console.log(test)
+
+require('./index.css')
 
